@@ -1,0 +1,11 @@
+version: '3'
+services:
+  frontend:
+    image: nat997/streamlitflaskapi2212:frontend-tag
+    ports:
+      - "8501:8501"
+
+  backend:
+    image: nat997/streamlitflaskapi2212:backend-tag
+    ports:
+      - "5000:5000"
