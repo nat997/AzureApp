@@ -29,6 +29,8 @@ docker compose up --build
 
 ### For the report of this TP please view Azure TP.pdf 
 
+[Azure TP .pdf](https://github.com/nat997/AzureTP/files/13757104/Azure.TP.pdf)
+
 # Streamlit Flask API with Azure MySQL Data Visualization
 
 This project showcases a Streamlit and Flask-based web application for data visualization using data retrieved from an Azure MySQL database. The application is Dockerized and can be easily deployed on Azure.
@@ -64,5 +66,6 @@ Access the application:
 Streamlit App: http://localhost:8501
 Flask API: http://localhost:5000
 
-[Azure TP .pdf](https://github.com/nat997/AzureTP/files/13754335/Azure.TP.pdf)
+
+
 
