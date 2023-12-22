@@ -1,0 +1,25 @@
+version: '3'
+services:
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./backend:/app/backend
+    networks:
+      - my_network
+
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./frontend:/app/frontend
+    networks:
+      - my_network
+
+networks:
+  my_network:
+    driver: bridge
