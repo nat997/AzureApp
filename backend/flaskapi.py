@@ -5,9 +5,9 @@ from mysql.connector import errorcode
 app = Flask(__name__)
 
 # Replace the following with your Azure MySQL database information
-host = "myappstreamlit2112.mysql.database.azure.com"
-user = "nguyenanhtien"
-password = "1234560aA"
+host = ""
+user = ""
+password = ""
 ssl_ca = "DigiCertGlobalRootCA.crt.pem"
 database = "labdata"
 
